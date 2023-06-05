@@ -5,6 +5,20 @@ Video de funcionalidad de MagicShop: https://drive.google.com/file/d/1aiaH7NyWpA
 ![WhatsApp Image 2023-06-05 at 11 24 27](https://github.com/LeanMayol/PF-MagicShop/assets/118229576/a370f0ae-2341-40cc-b5c4-9b54005ff756)
 ![WhatsApp Image 2023-06-05 at 11 25 16](https://github.com/LeanMayol/PF-MagicShop/assets/118229576/8c9eca7e-7254-41b2-9acf-b5bff4be5174)
 
+
+Este es un pequeño proyecto que fui desarrollando de a poco a lo largo de las clases y el conocimiento que fui adquiriendo en mis clases de react con CODERHOUSE, simula un ecommerce.
+
+
+
+
+
+
+
+
+
+
+
+
 Getting Started
 Overview
 Vite (French word for "quick", pronounced /vit/, like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:
