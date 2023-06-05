@@ -32,11 +32,11 @@ const Formulario = () => {
     const orden = {
       items: carrito.map((producto) => ({
         id: producto.item.id,
-        nombre: producto.item.nombre,
+        nombre: producto.item.name,
         cantidad: producto.cantidad,
       })),
       total: carrito.reduce(
-        (total, producto) => total + producto.item.precio * producto.cantidad,
+        (total, producto) => total + producto.item.price * producto.cantidad,
         0
       ),
       nombre,
@@ -63,9 +63,9 @@ const Formulario = () => {
         {carrito.map((producto) => (
           <div key={producto.item.id}>
             <p>
-              {producto.item.nombre} x {producto.cantidad}
+              {producto.item.name} x {producto.cantidad}
             </p>
-            <p>Precio $: {producto.item.precio} </p>
+            <p>Precio $: {producto.item.price * producto.cantidad} </p>
             <hr />
           </div>
         ))}
@@ -115,7 +115,9 @@ const Formulario = () => {
           />
         </div>
         {error && <p style={{ color: "red" }}> {error} </p>}
-        <button type="submit">Finalizar Compra</button>
+        <button className="finalizar" type="submit">
+          Finalizar Compra
+        </button>
       </form>
       {ordenId && (
         <strong>
